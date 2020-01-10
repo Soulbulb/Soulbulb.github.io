@@ -17182,3 +17182,28 @@ body:after {
   background-color: #ed1b72;
   animation-delay: -0.3s;
 }
+main {
+  height: 100vh;
+  /* padding: 10px; */
+  text-align: center;
+}
+main .-content {
+  position: relative;
+  height: 100vh;
+}
+main .-content > div {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+main .-content.-index {
+  background-color: #f6f6f6;
+  display: table;
+  width: 100%;
+}
+main .-content.-index > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
