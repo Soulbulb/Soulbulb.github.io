@@ -1,4 +1,4 @@
-setTimeout(transition, 50);
+
 
 $('.js-trigger-transition').on('click', function(e) {
   e.preventDefault();
