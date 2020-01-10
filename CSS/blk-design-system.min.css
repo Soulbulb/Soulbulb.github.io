@@ -12246,7 +12246,7 @@ hr {
  font-size:4.25rem
 }
 .icon-xl+.icon-text {
- width:calc(1 - $icon-size-xl - 1)
+ width:calc(1 - icon-size-xl - 1)
 }
 .icon-lg {
  width:3.7rem;
@@ -12257,7 +12257,7 @@ hr {
  font-size:2.95rem
 }
 .icon-lg+.icon-text {
- width:calc(1 - $icon-size-lg - 1)
+ width:calc(1 - icon-size-lg - 1)
 }
 .icon-sm {
  width:1.875rem;
@@ -12268,7 +12268,7 @@ hr {
  font-size:1.125rem
 }
 .icon-sm+.icon-text {
- width:calc(1 - $icon-size-sm - 1)
+ width:calc(1 - icon-size-sm - 1)
 }
 .icon-shape {
  padding:12px;
