@@ -1,4 +1,4 @@
-
+transition();
 
 $('.js-trigger-transition').on('click', function(e) {
   e.preventDefault();
@@ -7,7 +7,7 @@ $('.js-trigger-transition').on('click', function(e) {
 
 function transition() {
   var tl = new TimelineMax();
-  
+
     tl.to(CSSRulePlugin.getRule('body:before'), 0.2, {cssRule: {top: '50%' }, ease: Power2.easeOut}, 'close')
     .to(CSSRulePlugin.getRule('body:after'), 0.2, {cssRule: {bottom: '50%' }, ease: Power2.easeOut}, 'close')
     .to($('.loader'), 0.2, {opacity: 1})
