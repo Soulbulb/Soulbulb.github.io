@@ -17138,28 +17138,6 @@ body:after {
    }
    }*/
 }
-h1 {
-  color: #1c2020;
-  margin-bottom: 1em;
-  font-size: 2.2rem;
-  font-weight: 100;
-}
-.btn {
-  display: inline-block;
-  padding: 1.4em 1.6em;
-  margin-bottom: 2em;
-  border-radius: 50em;
-  background-color: #343b3b;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.btn:hover {
-  background-color: #404949;
-}
 .loader {
   margin: 0 auto;
   width: 60px;
