@@ -178,45 +178,43 @@
   </script>
 
 	<script>
-			$(document).ready(function(){
-        $(function () { objectFitImages() });
-				new WOW().init();
-				AOS.init();
-				setTimeout(transition, 200);
-
-				/*-------------------------------------
-				Zurück zum Anfang der Seite
-				-------------------------------------*/
-
-				function scrollFunction()
+		$(document).ready(function(){
+        	$(function () { objectFitImages() });
+			new WOW().init();
+			AOS.init();
+			setTimeout(transition, 200);
+			/*-------------------------------------
+			Zurück zum Anfang der Seite
+			-------------------------------------*/
+			function scrollFunction()
+			{
+				var y = $(window).scrollTop(),
+				top = $('.top');
+				if (y > 100)
 				{
-					var y = $(window).scrollTop(),
-					top = $('.top');
-					if (y > 100)
-					{
-						top.fadeIn('slow');
-					}
-					else
-					{
-						top.fadeOut('slow');
-					}
-				};
+					top.fadeIn('slow');
+				}
+				else
+				{
+					top.fadeOut('slow');
+				}
+			};
 
-				$(window).on('scroll', function () {
-					scrollFunction();
-			 	});
+			$(window).on('scroll', function () {
+				scrollFunction();
+			});
+			
+			$('#toTopBtn').on('click', function (e) {
+				e.preventDefault();
+				$('html,body').animate({
+					scrollTop: 0
+				}, 700);
+        	});
 
-				$('#toTopBtn').on('click', function (e) {
-					e.preventDefault();
-					$('html,body').animate({
-						scrollTop: 0
-					}, 700);
-        });
-
-					$('.jarallax').jarallax({
-						speed: 0.2
-					});
-				});
+			$('.jarallax').jarallax({
+				speed: 0.2
+			});
+		});
 
 		</script>
     </body>
