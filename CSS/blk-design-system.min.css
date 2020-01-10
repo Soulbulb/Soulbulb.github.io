@@ -17113,10 +17113,6 @@ input.datetimepicker[data-color=yellow]+.bootstrap-datetimepicker-widget table t
   }
 }
 body {
-  font-size: 1.6rem;
-  font-family: "Open Sans", sans-serif;
-  color: #4089a6;
-  background-color: #ffffff;
   -webkit-font-smoothing: antialiased;
 }
 body:before, body:after {
@@ -17207,27 +17203,4 @@ h1 {
 .loader .bar6 {
   background-color: #ed1b72;
   animation-delay: -0.3s;
-}
-main {
-  height: 100vh;
-  /* padding: 10px; */
-  text-align: center;
-}
-main .-content {
-  position: relative;
-  height: 100vh;
-}
-main .-content > div {
-  height: 100%;
-  overflow: hidden;
-  overflow-y: auto;
-}
-main .-content.-index {
-  background-color: #f6f6f6;
-  display: table;
-  width: 100%;
-}
-main .-content.-index > div {
-  display: table-cell;
-  vertical-align: middle;
 }
